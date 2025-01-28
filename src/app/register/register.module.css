@@ -1,0 +1,183 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoImage{
+    position: relative;
+    right: 280px;
+    top: 12px;
+}
+.leftDiv h1 span{
+    color: #E33C12;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.buttonDiv button{
+    width: 340px;
+    height: 54px;
+    border: 1px solid hsla(0, 2%, 79%, 0.705);
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+.buttonDiv button .google{
+    position: relative;
+    top: 5px;
+}
+.buttonDiv button .facebook{
+    position: relative;
+    top: 5px;
+}
+
+.name{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.name input{
+    width: 340px;
+    height: 54px;
+    border: 1px solid hsla(0, 2%, 79%, 0.705);
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+}
+.name label{
+    font-weight: bolder;
+}
+
+.email{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.email input{
+    width: 340px;
+    height: 54px;
+    border: 1px solid hsla(0, 2%, 79%, 0.705);
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+}
+.email label{
+    font-weight: bolder;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.password input{
+    width: 340px;
+    height: 54px;
+    border: 1px solid hsla(0, 2%, 79%, 0.705);
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+}
+
+.password label{
+    font-weight: bolder;
+}
+.confirmPass{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.confirmPass input{
+    width: 340px;
+    height: 54px;
+    border: 1px solid hsla(0, 2%, 79%, 0.705);
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+}
+
+.confirmPass label{
+    font-weight: bolder;
+}
+.submit{
+    margin-top: 32px;
+    background: #E33C12;
+    color: white;
+    width: 120px;
+    height: 39px;
+    border: none;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 10px;
+    transition: all 0.2s ease-in-out;
+    width:340px;
+    height: 54px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #C7290D;
+}
+.submit:active{
+    background-color: #B2240A;
+}
+.register a{
+    color: #E33C12;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.rightDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.err{
+    color: red;
+}
+.orText{
+    position: relative;
+    top: 10px;
+}
+.buttonDiv{
+    margin-top: 20px;
+}
+.buttonDiv button{
+    cursor: pointer;
+}
+.github{
+    position: relative;
+    right: 6px;
+}
+.innerText{
+    position: relative;
+    bottom: 15px;
+    right: 9px;
+}

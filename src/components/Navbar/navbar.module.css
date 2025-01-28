@@ -1,0 +1,54 @@
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 40vw;
+}
+.innerDiv{
+    display: flex;
+    flex-direction: row;
+}
+.arrowImg{
+    position: relative;
+    top: 7px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:30px;
+}
+.list li:nth-child(2){
+    position: relative;
+    bottom: 10.5px;
+}
+.secondInnerDiv{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin-left: 30px;
+}
+.innerDiv a{
+     background: #E33C12;
+    color: white;
+    width: 120px;
+    height: 39px;
+    cursor: pointer;
+    border: none;
+    border-radius: 19.64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.innerDiv a:hover{
+    background-color: rgb(197, 47, 9);
+}
+.innerDiv a:active{
+    background-color: rgb(255, 106, 69);
+}

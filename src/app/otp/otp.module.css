@@ -1,0 +1,83 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.leftDiv{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.leftDiv h1{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.leftDiv p{
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.leftDiv .inputDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.leftDiv .inputDiv input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1px;
+    width: 75px;
+    height: 75px;
+    border:1px solid #E2E8F0;
+    border-radius: 9px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #acacac;
+}
+.leftDiv .resend{
+    color: #E33C12;
+    position: relative;
+    margin-top: 40px;
+    left: 200px;
+}
+.leftDiv button{
+    margin-top: 32px;
+    background: #E33C12;
+    color: white;
+    width: 487px;
+    height: 61px;
+    border: none;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    margin: auto;
+    transition: all 0.2s ease-in-out;
+    width:340px;
+    height: 54px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.leftDiv button:hover{
+    background-color: #C7290D;
+}
+.leftDiv button:active{
+    background-color: #B2240A;
+}
+.rightDiv .mainImg{
+    margin-top: 60px;
+}
+.timer .resend{
+    color: #C7290D;
+    background-color: white;
+}
+.timer .resendTimer{
+    color: black;
+}
